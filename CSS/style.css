@@ -1,0 +1,100 @@
+body{
+    display: flex;
+    justify-content: center;
+    background: rgb(174,238,175);
+    background: radial-gradient(circle, rgba(174,238,175,1) 0%, rgba(148,187,233,1) 100%);
+    font-family: sans-serif;
+}
+.form{
+    display: flex;
+    margin-top: 100px;
+    width: 900px;
+    height: 700px;
+}
+form{
+    background-color: white;
+    width: 500px;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    line-height: 1;
+    border-radius: 20px 0px 0px 20px;
+    color: grey;
+}
+.contact{
+    border: 2px solid black;
+    border-radius: 100%;
+    width: 50px;
+    height: 50px;
+}
+.contact:hover{
+background-color: white;
+color: black;
+}
+.contacts{
+    width: 250px;
+    height: 25px;
+    border: 0px solid black;
+    background-color: rgb(221, 221, 221);
+}
+.message{
+    width: 250px;
+    height: 75px;
+}
+a{
+    color: grey;
+    text-decoration: none;
+}
+hr {
+    border:none;
+    border: 1px dotted grey; 
+    color:#fff;
+    background-color:#fff;
+    height:1px;
+    width: 30%;
+}
+.cm{
+    background-color: rgb(70, 187, 132);
+    width: 180px;
+    height: 40px;
+    border-radius: 25px;
+    border: none;
+    color: white;
+}
+.right-side{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 400px;
+    height: 700px;
+    background-color: rgb(70, 187, 132);
+    border-radius: 0px 20px 20px 0px;
+    color: white;
+}
+.arrow{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 40px;
+    border: 1px solid white;
+    border-radius: 35px;
+}
+.cycle{
+    background-color: yellow;
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    margin-top: 850px;
+    margin-right: 500px;
+}
+.triangle{
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0 100px 150px 100px;
+    border-color: transparent transparent #ff4760 transparent;
+}
